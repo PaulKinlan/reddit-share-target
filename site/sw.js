@@ -4,7 +4,7 @@ onfetch = async (event) => {
 
   const location = encodeURIComponent(url.searchParams.get('url') || url.searchParams.get('text'));
   const title = encodeURIComponent(url.searchParams.get('title'))
-  const hnUrl = `http://www.reddit.com/submit?url=${location}&title=${title}`
+  const hnUrl = `http://old.reddit.com/submit?url=${location}&title=${title}`
 
   event.waitUntil(event.respondWith(Response.redirect(hnUrl)));
 };
