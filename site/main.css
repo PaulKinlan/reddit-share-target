@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  align-items: center;
+  font-family: Roboto, san-sefif;
+}
+
+header img {
+  width: 100%;
+}
